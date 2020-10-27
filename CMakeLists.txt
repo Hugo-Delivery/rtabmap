@@ -3,6 +3,7 @@
 cmake_minimum_required(VERSION 2.8.5)
 PROJECT( RTABMap )
 SET(PROJECT_PREFIX rtabmap)
+# set(CMAKE_CXX_STANDARD 14)
 
 # Catkin doesn't support multiarch library path, 
 # fix to "lib" if not set by user.
